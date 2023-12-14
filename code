@@ -64,7 +64,7 @@ void d_mainmenu()
     const char *menu[]= {"   Calculate Bill","   Add Goods","   Edit Goods","   Display All ","   Search", "   Delete Goods","   Exit"};
     system("cls");
 //textbackground(11);
-//textcolor(0);
+
 //_setcursortype(_NOCURSOR);
     window(25,50,20,32);
     gotoxy(33,18);
