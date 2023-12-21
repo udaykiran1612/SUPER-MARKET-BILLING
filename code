@@ -27,7 +27,7 @@ typedef struct
 } rec;
 rec item;
 
-//declaration of display functions/
+
 void curser(int);
 void dbill();
 void d_mainmenu();
