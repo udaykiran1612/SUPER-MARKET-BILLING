@@ -17,7 +17,6 @@ void gotoxy(int x,int y)
 void c_code(char[]);
 int check(char[]);
 
-//structure declaration/
 typedef struct
 {
     char name[ANS],code[ACS];
@@ -62,9 +61,7 @@ void d_mainmenu()
     char ch;
     const char *menu[]= {"   Calculate Bill","   Add Goods","   Edit Goods","   Display All ","   Search", "   Delete Goods","   Exit"};
     system("cls");
-//textbackground(11);
-
-//_setcursortype(_NOCURSOR);
+//textbackground(11)
     window(25,50,20,32);
     gotoxy(33,18);
     printf("MAIN MENU");
