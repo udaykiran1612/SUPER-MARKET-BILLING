@@ -150,7 +150,7 @@ void highlight(int no,int count)
         printf("   By Quantity      ");
         gotoxy(30,26);
         printf("   Back to main menu");
-        //textcolor(0);
+       
         //textbackground(2);
         switch (count)
         {
